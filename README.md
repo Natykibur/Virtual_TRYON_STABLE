@@ -5,24 +5,24 @@ A real-time virtual clothing try-on application that uses advanced computer visi
 ## Key Capabilities
 
 ### Real-Time Pose Detection & Tracking
-- **MediaPipe Integration**: Uses MediaPipe Pose with optimized settings for real-time performance [2](#0-1) 
-- **Landmark-Based Fitting**: Tracks shoulder (landmarks 11, 12) and hip (landmarks 23, 24) positions for accurate torso measurement [3](#0-2) 
-- **Dynamic Sizing**: Automatically calculates torso dimensions and scales clothing accordingly [4](#0-3) 
+- **MediaPipe Integration**: Uses MediaPipe Pose with optimized settings for real-time performance  
+- **Landmark-Based Fitting**: Tracks shoulder (landmarks 11, 12) and hip (landmarks 23, 24) positions for accurate torso measurement
+- **Dynamic Sizing**: Automatically calculates torso dimensions and scales clothing accordingly 
 
 ### Advanced Stabilization System
-- **Exponential Smoothing**: Implements smoothing with alpha=0.8 to reduce jitter and provide natural movement [5](#0-4) 
-- **Angle Stabilization**: Clips rotation to ±30 degrees and ignores extreme angles >60 degrees for realistic appearance [6](#0-5) 
-- **Position Smoothing**: Smooths position, size, and rotation parameters to prevent flickering [7](#0-6) 
+- **Exponential Smoothing**: Implements smoothing with alpha=0.8 to reduce jitter and provide natural movement
+- **Angle Stabilization**: Clips rotation to ±30 degrees and ignores extreme angles >60 degrees for realistic appearance 
+- **Position Smoothing**: Smooths position, size, and rotation parameters to prevent flickering 
 
 ### Professional Image Processing
-- **Alpha Channel Support**: Full BGRA transparency support for natural clothing overlay [8](#0-7) 
-- **Geometric Transformations**: Applies rotation and scaling with proper interpolation [9](#0-8) 
+- **Alpha Channel Support**: Full BGRA transparency support for natural clothing overlay  
+- **Geometric Transformations**: Applies rotation and scaling with proper interpolation
 - **Boundary Handling**: Intelligent clipping to prevent overlay artifacts at frame edges
 
 ### Interactive Controls
-- **Multi-Shirt Support**: Load and switch between multiple PNG shirt assets [10](#0-9) 
-- **Real-Time Switching**: Navigate through shirts with 'N' (next) and 'P' (previous) keys [11](#0-10) 
-- **Visual Feedback**: On-screen display showing current shirt selection [12](#0-11) 
+- **Multi-Shirt Support**: Load and switch between multiple PNG shirt assets
+- **Real-Time Switching**: Navigate through shirts with 'N' (next) and 'P' (previous) keys 
+- **Visual Feedback**: On-screen display showing current shirt selection
 
 ## System Requirements
 
